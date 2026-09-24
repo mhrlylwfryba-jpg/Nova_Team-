@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تیم نووا | NovaTeam</title>
+<style>
+  :root{
+    --primary:#6c5ce7;
+    --primary-dark:#4834d4;
+    --bg:#0f0f1a;
+    --card:#1a1a2e;
+    --text:#eaeaea;
+    --muted:#9a9ab0;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Tahoma,'Vazirmatn',sans-serif;}
+  body{background:var(--bg);color:var(--text);line-height:1.8;}
+  a{color:var(--primary);text-decoration:none;}
+  header{background:var(--card);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;box-shadow:0 2px 10px rgba(0,0,0,.4);}
+  header h1{font-size:1.3rem;color:var(--primary);}
+  nav a{margin-inline-start:1.2rem;color:var(--muted);transition:color .2s;}
+  nav a:hover{color:var(--text);}
+  .hero{text-align:center;padding:5rem 1rem;background:linear-gradient(135deg,var(--primary-dark),var(--primary));}
+  .hero h2{font-size:2.2rem;margin-bottom:1rem;}
+  .hero p{color:#eaeaea;max-width:600px;margin:0 auto 2rem;}
+  .btn{display:inline-block;background:#fff;color:var(--primary-dark);padding:.7rem 2rem;border-radius:30px;font-weight:bold;transition:transform .2s;}
+  .btn:hover{transform:translateY(-3px);}
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem;padding:3rem 2rem;max-width:1100px;margin:auto;}
+  .card{background:var(--card);padding:1.8rem;border-radius:14px;border:1px solid #2a2a45;transition:transform .2s;}
+  .card:hover{transform:translateY(-5px);}
+  .card h3{color:var(--primary);margin-bottom:.6rem;}
+  footer{text-align:center;padding:1.5rem;background:var(--card);color:var(--muted);font-size:.9rem;}
+</style>
+</head>
+<body>
+<header>
+  <h1>تیم نووا</h1>
+  <nav>
+    <a href="#">خانه</a>
+    <a href="#features">امکانات</a>
+    <a href="#">تماس</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>به تیم نووا خوش آمدید</h2>
+  <p>یک سایت استارتر مدرن، راست‌به‌چپ و کاملاً آماده برای استقرار روی GitHub Pages. کافیست فایل index.html را آپلود کنید!</p>
+  <a class="btn" href="#features">شروع کنید</a>
+</section>
+
+<section id="features" class="features">
+  <div class="card">
+    <h3>🚀 سرعت بالا</h3>
+    <p>طراحی سبک و بهینه بدون هیچ وابستگی خارجی.</p>
+  </div>
+  <div class="card">
+    <h3>📱 واکنش‌گرا</h3>
+    <p>نمایش عالی روی موبایل، تبلت و دسکتاپ.</p>
+  </div>
+  <div class="card">
+    <h3>🌙 حالت تیره</h3>
+    <p>رابط کاربری تیره و مدرن با پالت رنگ بنفش.</p>
+  </div>
+</section>
+
+<footer>
+  © ۱۴۰۳ تیم نووا | NovaTeam — ساخته‌شده با ❤️
+</footer>
+</body>
+</html>
